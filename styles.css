@@ -11,7 +11,16 @@ li.Logo{
 .cards{
   display:flex
 }
+.Card-1{
+  display:flex
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 80px;
+}
 .Card-2 img{
   height: 112px;
   width: 255px
+}
+.Title{
+display: block;
 }
