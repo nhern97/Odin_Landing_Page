@@ -1,13 +1,23 @@
 *{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .container1{
-  padding: 5px 300px 300px 300px;
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 ul{
   display: flex;
   list-style: none;
+  width:800px;
 }
 .babies{
   width: 200px;
@@ -28,6 +38,7 @@ a{
 .cards{
   display:flex;
   justify-content: space-between;
+  width: 850px;
 }
 .card{
   display: flex;
@@ -35,10 +46,107 @@ a{
   width: 350px;
   padding-left: 35px;
   margin-top: 80px;
+  padding-bottom: 40px;
 }
 h1{
   margin: 0px;
+  font-size: 48px;
+  font-weight: bolder;
+  color:#F9FAF8
 }
 p{
   margin-top: 0px;
+  font-size: 18px;
+  color:#e5e7eb;
+}
+button.button1{
+  border-radius: 12px;
+  background-color:#3882f6;
+  border:none;
+  color:#e5e7eb;
+  text-align: center;
+  padding-left:15px;
+  padding-right:15px;
+  cursor:pointer;
+}
+.image1{
+  height: 150px;
+  width: 350px;
+  margin-top: 80px;
+}
+.randinfo{
+font-size: 36px bold;  
+}
+.images{
+  display: flex;
+  gap: 40px;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+}
+.conman{
+  height: 150px;
+  width: 150px;
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: #3882f6;
+}
+.container3{
+  display: flex;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;  
+}
+.quote{
+  width: 500px;
+  padding: 50px;
+}
+.message,.message2{
+  color:#1f2937
+  }
+.message{
+  font-style: italic;
+  font-weight: light;
+  
+}
+.message2{
+  text-align: end;
+  font-weight: bold;
+}
+.container4{
+  display: flex;
+  justify-content: center;
+  padding:50px;
+}
+.finalbox{
+  background-color: #3882f6;
+  display: flex;
+  width: 800px;
+  height: 30px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  padding:50px;
+}
+.call2{
+  display:flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+.signup{
+  font-size: 24px;
+}
+.subtext1{
+  font-size: 18px;
+}
+.tired{
+  border-radius: 12px;
+  background-color:#3882f6;
+  border-color:#F9FAF8;
+  color:#F9FAF8;
+  text-align: center;
+  padding-left:15px;
+  padding-right:15px;
+  cursor:pointer;
 }
