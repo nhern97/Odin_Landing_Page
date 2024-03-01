@@ -150,3 +150,9 @@ font-size: 36px bold;
   padding-right:15px;
   cursor:pointer;
 }
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #1f2937;
+  padding: 80px;
+}
